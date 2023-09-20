@@ -1,0 +1,14 @@
+select
+delete
+insert
+update
+execute
+
+
+- Select pakt alle gegevens uit de database
+- Delete kan dingen verwijderen uit de database
+Hackers kunnen met dit alles verwijderen
+
+- Insert hiermee kan je gegevens toevoegen
+- Update Gevens kunnen aanpassen/wijzigen
+- Execute kan iets uitvoeren uit de database
