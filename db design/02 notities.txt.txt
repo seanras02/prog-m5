@@ -1,0 +1,29 @@
+Stationsplein 35, 
+1012 AB Amsterdam, 
+Nederland
+
+Ubisoft
+
+
+
+Straat: Stationsplein
+Nummer: 35
+Postcode: 1012 AB
+Plaats: Amsterdam
+Land: Nederland
+
+Straat: VARCHAR
+Nummer: INT
+
+Alles is een VARCHAR omdat er letters tussen zitten
+Als het alleen nummers waren was het een INT geweest
+
+
+
+waarom Primary key, not null, unsigned en unique aanvinken?:
+- Primary Key is voor het identificeren van het tabel
+- not null moet er iets in staan, 
+- unique zodat er geen dubbele dingen erin zitten 
+- unsigned voor geen negatieve nummers
+
+
