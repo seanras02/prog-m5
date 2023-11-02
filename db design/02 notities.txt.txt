@@ -1,0 +1,107 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    height: 100vh;
+    background: #278FD1;
+}
+
+header{
+    height: 10rem;
+    background: #278FD1;
+    border-bottom: solid 0.2rem #eee;
+}
+
+.img{
+    top: 0;
+    left: 0;
+    padding: 1rem;
+}
+
+.img > img{
+    height: 100%;
+    width: 30%;
+}
+
+main{
+    height: 100vh;
+}
+
+.section--1{
+    height: 30%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section--1 > h1{
+    padding: 2rem;
+    font-size: 200%;
+}
+
+.lists{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 100%;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 90%;
+    background: #eee;
+    gap: 2rem;
+}
+
+.sdg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    height: 85%;
+    background: rgb(187, 182, 182);
+}
+
+.section--2{
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    background: #eee;
+    height: 75%;
+    width: 90%;
+}
+
+.section--3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+}
+
+.sdg__uitleg{
+    width: 90%;
+    height: 90%;
+    background: #eee;
+}
+
+footer{
+    height: 30%;
+}
