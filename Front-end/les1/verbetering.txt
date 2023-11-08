@@ -1,0 +1,9 @@
+Wat beter kan is dat we minder divs moeten gebruiken
+
+Eigenlijk kan een paar dingen in de css simpeler (media query)
+
+Webp moest gebruikt worden voor de plaatjes
+
+Ik had heel veel problemen met de "over" section dus ik heb zelf wat aanpassingen gedaan voor de font-sizes
+
+de onze kenmerken section had ik ook problemen mee (inmiddels al opgelost) maar het was een hele bende met de foto en de tekst en de size waar ze in waren dus ik heb de height aangepast

@@ -1,0 +1,35 @@
+@use 'color';
+@use 'components';
+
+.footer{
+    @extend %section;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.section__media{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20rem;
+    padding: 4rem;
+}
+
+.media__h2{
+    @extend %h2Handwriting;
+    padding: 2rem;
+}
+
+.media__logos{
+    width: 10%;
+    height: 10%;
+}
+
+.media__logo{
+    border-radius: 2rem;
+    height: 25%;
+    width: 25%;
+    object-fit: cover;
+}
