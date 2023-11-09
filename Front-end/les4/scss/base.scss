@@ -1,0 +1,57 @@
+@use 'color';
+@use 'mixins';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    background: color.$background;
+    gap: 20px;
+}
+
+.eye {
+    width: 140px;
+    height: 260px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: color.$shadow;
+    position: relative;
+}
+
+.iris {
+    width: 80px;
+    height: 80px;
+    background: color.$eye;
+    background: color.$iris;
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}
+
+.pupil {
+    width: 65%;
+    height: 65%;
+    background: color.$background;
+    border-radius: 50%;
+}
+
+.shimmering {
+    width: 30%;
+    height: 35%;
+    background: white;
+    position: absolute;
+    @include mixins.shimmer;
+}
+
+
+
+
+.u-flex {
+    @include mixins.flexCenter;
+}

@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  background: black;
+  gap: 20px;
+}
+
+.eye {
+  width: 14rem;
+  height: 26rem;
+  background: white;
+  border-radius: 50%;
+  box-shadow: inset 0rem 0rem 2rem 1rem rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.iris {
+  width: 8rem;
+  height: 8rem;
+  background: #30d733;
+  background: linear-gradient(#8f1913, 50%, #b3524d);
+  border-radius: 50%;
+  position: absolute;
+  top: 40%;
+  right: 10%;
+}
+
+.pupil {
+  width: 65%;
+  height: 65%;
+  background: black;
+  border-radius: 50%;
+}
+
+.shimmering {
+  width: 30%;
+  height: 35%;
+  background: white;
+  position: absolute;
+  top: 10%;
+  right: 18%;
+  border-radius: 50%;
+  transform: rotate(30deg);
+}
+
+.u-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
